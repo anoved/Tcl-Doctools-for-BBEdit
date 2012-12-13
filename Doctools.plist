@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+	"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	
+	<!--
+		Tcl Doctools for BBEdit by Jim DeVona
+		https://github.com/anoved/Tcl-Doctools-for-BBEdit
+		This file is in the public domain.
+	-->
+	
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+	
+	<key>BBLMLanguageDisplayName</key>
+	<string>Doctools</string>
+	
+	<key>BBLMLanguageCode</key>
+	<string>DTcl</string>
+	
+	<key>BBLMSuffixMap</key>
+	<array>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.dtp</string>
+		</dict>
+	</array>
+	
+	<key>BBLMCanSpellCheckCodeRuns</key>
+	<true/>
+	
+	<key>BBLMIsCaseSensitive</key>
+	<true/>
+	
+	<key>BBLMColorsSyntax</key>
+	<true/>
+	
+	<!-- http://tcllib.sourceforge.net/doc/doctools_lang_cmdref.html -->
+	<key>BBLMKeywordList</key>
+	<array>
+	<string>arg text</string>
+	<string>arg_def</string>
+	<string>bullet</string>
+	<string>call</string>
+	<string>category</string>
+	<string>class</string>
+	<string>cmd</string>
+	<string>cmd_def</string>
+	<string>comment</string>
+	<string>const</string>
+	<string>copyright</string>
+	<string>def</string>
+	<string>description</string>
+	<string>enum</string>
+	<string>emph</string>
+	<string>example</string>
+	<string>example_begin</string>
+	<string>example_end</string>
+	<string>file</string>
+	<string>fun</string>
+	<string>image</string>
+	<string>include</string>
+	<string>item</string>
+	<string>keywords</string>
+	<string>lb</string>
+	<string>list_begin</string>
+	<string>list_end</string>
+	<string>lst_item</string>
+	<string>manpage_begin</string>
+	<string>manpage_end</string>
+	<string>method</string>
+	<string>moddesc</string>
+	<string>namespace</string>
+	<string>nl</string>
+	<string>opt</string>
+	<string>opt_def</string>
+	<string>option</string>
+	<string>package</string>
+	<string>para</string>
+	<string>rb</string>
+	<string>require</string>
+	<string>section</string>
+	<string>sectref</string>
+	<string>sectref-external</string>
+	<string>see_also</string>
+	<string>strong</string>
+	<string>subsection</string>
+	<string>syscmd</string>
+	<string>term</string>
+	<string>titledesc</string>
+	<string>tkoption_def</string>
+	<string>type</string>
+	<string>uri</string>
+	<string>usage</string>
+	<string>var</string>
+	<string>vset</string>
+	<string>vset</string>
+	<string>widget</string>
+	</array>
+
+	<key>BBLMCommentPrefixDefault</key>
+	<string>[comment {</string>
+	<key>BBLMCommentSuffixDefault</key>
+	<string>}]</string>
+	
+	<key>Language Features</key>
+	<dict>
+		<key>Identifier and Keyword Character Class</key>
+		<string>A-Za-z0-9_</string>
+		<key>Open Strings 1</key>
+		<string>"</string>
+		<key>Close Strings 1</key>
+		<string>"</string>
+		<key>Escape Char in Strings 1</key>
+		<string>\</string>
+		<key>Open Strings 2</key>
+		<string>{</string>
+		<key>Close Strings 2</key>
+		<string>}</string>
+	</dict> 
+</dict>
+</plist>
