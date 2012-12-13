@@ -12,6 +12,8 @@ This repository provides a few tools to help write documentation with Doctools i
 [4]: https://en.wikipedia.org/wiki/Nroff
 [5]: http://www.barebones.com/products/bbedit/
 
+![Screenshot of Doctools syntax highlighting with HTML preview](https://raw.github.com/anoved/Tcl-Doctools-for-BBEdit/master/dt4b.png)
+
 ## Contents
 
 The `Doctools.plist` file is a language module that provides basic syntax highlighting of Doctools commands.
