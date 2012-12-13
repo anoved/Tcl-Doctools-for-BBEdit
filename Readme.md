@@ -1,6 +1,6 @@
 # Tcl Doctools for BBEdit
 
-[Doctools][1] is a simple Tcl-based markup language suitable for writing software documentation. (Here is the [language introduction][2] and here is the [command reference][3].) The `doctools` package distributed with Tcllib (and present on Mac OS X 10.8) provides an implementation that can transform Doctools markup to a variety of formats, including HTML and [nroff][4].
+[Doctools][1] is a simple Tcl-based markup language suitable for writing software documentation. (Here is the [language introduction][2] and here is the [command reference][3].) The [`doctools`][6] package distributed with Tcllib (and present on Mac OS X 10.8) provides an implementation that can transform Doctools markup to a variety of formats, including HTML and [nroff][4].
 
 [BBEdit][5] is a Macintosh text editor that doesn't suck.
 
@@ -11,6 +11,7 @@ This repository provides a few tools to help write documentation with Doctools i
 [3]: http://tcllib.sourceforge.net/doc/doctools_lang_cmdref.html
 [4]: https://en.wikipedia.org/wiki/Nroff
 [5]: http://www.barebones.com/products/bbedit/
+[6]: http://tcllib.sourceforge.net/doc/doctools.html
 
 ![Screenshot of Doctools syntax highlighting with HTML preview](https://raw.github.com/anoved/Tcl-Doctools-for-BBEdit/master/dt4b.png)
 
