@@ -39,7 +39,7 @@
 	<!-- http://tcllib.sourceforge.net/doc/doctools_lang_cmdref.html -->
 	<key>BBLMKeywordList</key>
 	<array>
-	<string>arg text</string>
+	<string>arg</string>
 	<string>arg_def</string>
 	<string>bullet</string>
 	<string>call</string>
@@ -107,7 +107,7 @@
 	<key>Language Features</key>
 	<dict>
 		<key>Identifier and Keyword Character Class</key>
-		<string>A-Za-z0-9_</string>
+		<string>A-Za-z0-9_\-</string>
 		<key>Open Strings 1</key>
 		<string>"</string>
 		<key>Close Strings 1</key>
